@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import heart from './heart.png'
+import heart from '../../assets/heart.png'
 
 export default function Position() {
     return (
@@ -34,8 +34,6 @@ const styles = StyleSheet.create({
     },
     wrapper:{
         alignItems:'center',
-        
-   
     },
     loveWrapper: {
         position:'relative',

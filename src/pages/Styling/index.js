@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
-import hewan from './rusa.jpeg';
+import hewan from '../../assets/rusa.jpg';
 
 const SampleStyling = () => {
     return (
