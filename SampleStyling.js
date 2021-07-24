@@ -5,7 +5,6 @@ import hewan from './rusa.jpeg';
 const SampleStyling = () => {
     return (
         <View >
-
             <Text style={{ textAlign: 'center', color: 'black', marginTop: 20 }}>Dibawah ini Sample Styling JS</Text>
             <View style={{ borderWidth: 1 }} />
             <Text style={styles.text}>box</Text>
