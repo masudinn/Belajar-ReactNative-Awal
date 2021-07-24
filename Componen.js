@@ -10,21 +10,14 @@ const Componen = () => {
             </ScrollView>
 
         </View>
-
-
     )
-
-
 }
 
 const StylingComponen = () => {
     return (
         <View>
-
             <Text style={styles.textTitle}>Styling Componen</Text>
-
             <View style={styles.viewTitle}>
-
             </View>
         </View>
     )
@@ -48,55 +41,7 @@ const styles = StyleSheet.create({
         margin: 40
     }
 })
-const SampleComponen = () => {
-    return (
-        <View>
-            <Text style={{ alignSelf: 'center' }}>hello world</Text>
-            <View style={{ borderColor: 'black', borderWidth: 1 }} />
-            <Nama />
 
-            <TextInput style={{ borderWidth: 1 }} placeholder={"Inputin namamu"} />
-
-
-            <Animal />
-            <Profile />
-        </View >
-    )
-}
-
-const Nama = () => {
-    return (
-        <View>
-            <Text>hello world 2</Text>
-            <Foto />
-        </View>
-    )
-};
-
-
-const Foto = () => {
-    return (
-        <Image source={{ uri: 'https://placeimg.com/640/480/nature' }} style={{ width: 150, height: 150 }} />
-    )
-};
-
-
-class Animal extends Component {
-    render() {
-        return <Image source={{ uri: 'https://placeimg.com/640/480/nature/grayscale' }}
-            style={{ width: 150, height: 150, borderRadius: 40, margin: 100 }} />
-    }
-}
-
-class Profile extends Component {
-    render() {
-        return (
-            <View>
-                <Text>componen profile</Text>
-            </View>
-        )
-    }
-}
 
 
 export default Componen;
