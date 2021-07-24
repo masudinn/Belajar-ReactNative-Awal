@@ -24,14 +24,14 @@ export default class FlexBox extends Component {
                 </View>
 
 
-                <View style={styles.titleyt}>
+                {/* <View style={styles.titleyt}>
                     <Text>Beranda</Text>
                     <Text>Vidio</Text>
                     <Text>Playlist</Text>
                     <Text>Komunitas</Text>
                     <Text>Channel</Text>
                     <Text>Tentang</Text>
-                </View>
+                </View> */}
 
                 <View style={{ flexDirection: 'row', marginBottom: 30 }}>
                     <Image source={{ uri: 'https://placeimg.com/640/480/people/grayscale' }} style={{ width: 100, height: 100, borderRadius: 50 }} />
