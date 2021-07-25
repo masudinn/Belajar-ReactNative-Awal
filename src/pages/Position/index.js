@@ -5,7 +5,7 @@ import heart from '../../assets/heart.png'
 export default function Position() {
     return (
         <View style={styles.wrapper}>
-                            <Text style={{
+                    <Text style={{
                     textAlign: 'center',
                     color: 'black',
                     marginTop: 10
