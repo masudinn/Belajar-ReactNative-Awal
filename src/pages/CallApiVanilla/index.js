@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import { Button, Image, StyleSheet, Text, View } from 'react-native'
 
-export default function CallApi() {
+export default function CallApiVanilla() {
     //useEffect(() => {
     //metod get
     // fetch('https://reqres.in/api/users/2')

@@ -9,7 +9,8 @@ import Cart from './componen/cart';
 import Produk from './componen/produk';
 import BasicJavascript from './pages/BasicJavascript';
 import ReactNativeSVG from './pages/ReactNativeSVG';
-import CallApi from './pages/CallApi';
+import CallApi from './pages/CallApiVanilla';
+import CallApiAxios from './pages/CallApiAxios';
 
 
 const App = () => {
@@ -34,7 +35,8 @@ const App = () => {
         {/* <Communication/> */}
         {/* <BasicJavascript/> */}
         {/* <ReactNativeSVG/> */}
-        <CallApi/>
+        {/* <CallApi/> */}
+        <CallApiAxios/>
       </ScrollView>
     </View>
   );
