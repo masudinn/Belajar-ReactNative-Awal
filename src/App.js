@@ -9,6 +9,7 @@ import Cart from './componen/cart';
 import Produk from './componen/produk';
 import BasicJavascript from './pages/BasicJavascript';
 import ReactNativeSVG from './pages/ReactNativeSVG';
+import CallApi from './pages/CallApi';
 
 
 const App = () => {
@@ -32,7 +33,8 @@ const App = () => {
         <Produk/> */}
         {/* <Communication/> */}
         {/* <BasicJavascript/> */}
-        <ReactNativeSVG/>
+        {/* <ReactNativeSVG/> */}
+        <CallApi/>
       </ScrollView>
     </View>
   );

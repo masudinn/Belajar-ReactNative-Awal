@@ -1,6 +1,6 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import Svg from '../../assets/svg1.svg'
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import Svg from '../../assets/svg1.svg';
 
 export default function ReactNativeSVG() {
     return (
@@ -13,6 +13,6 @@ export default function ReactNativeSVG() {
 
 const styles = StyleSheet.create({
     container: {
-        padding:20
+        padding: 20,
     }
 })
