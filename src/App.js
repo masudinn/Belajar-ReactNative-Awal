@@ -8,6 +8,7 @@ import StateDinamis from './pages/StateDinamis';
 import Cart from './componen/cart';
 import Produk from './componen/produk';
 import BasicJavascript from './pages/BasicJavascript';
+import ReactNativeSVG from './pages/ReactNativeSVG';
 
 
 const App = () => {
@@ -30,7 +31,8 @@ const App = () => {
         {/* <Cart/>
         <Produk/> */}
         {/* <Communication/> */}
-        <BasicJavascript/>
+        {/* <BasicJavascript/> */}
+        <ReactNativeSVG/>
       </ScrollView>
     </View>
   );
