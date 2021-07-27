@@ -7,7 +7,7 @@ const SampleStyling = () => {
         <View >
             <Text style={{ textAlign: 'center', color: 'black', marginTop: 20 }}>Dibawah ini Sample Styling JS</Text>
             <View style={{ borderWidth: 1 }} />
-            <Text style={styles.text}>box</Text>
+            {/* <Text style={styles.text}>box</Text>
             <View style={{
                 marginBottom: 20,
                 width: 120,
@@ -15,7 +15,7 @@ const SampleStyling = () => {
                 backgroundColor: '#4287f5',
                 borderWidth: 3,
                 borderColor: '#9042f5'
-            }} />
+            }} /> */}
             <View style={{ padding: 12, backgroundColor: '#f2f2f2', width: 212, borderRadius: 10 }}>
 
                 <Image source={hewan} style={{ width: 188, height: 107, borderRadius: 10 }} />

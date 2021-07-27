@@ -1,7 +1,12 @@
 import React, { useState,useEffect } from 'react';
 import { View, ScrollView } from 'react-native';
+import Communication from './pages/Communication';
+import Position from './pages/Position';
+import SampleStyling from './pages/Styling';
 import Props from './pages/PropsDinamis/index';
 import StateDinamis from './pages/StateDinamis';
+import Cart from './componen/cart';
+import Produk from './componen/produk';
 
 
 const App = () => {
@@ -14,13 +19,16 @@ const App = () => {
   return (    
     <View>
       <ScrollView>
-        {/* <SimpleComponen />
-        <SampleComponen />
-        <SampleStyling /> */}
+        {/* <SimpleComponen /> */}
+        {/* <SampleComponen />
         {/* {isShow && <FlexBox />} */}
+        {/* <SampleStyling /> */}
         {/* <Position/> */}
-        {/* <Props/> */}
-        <StateDinamis/>
+        {/* <Props/>
+        {/* <StateDinamis/> */}
+        {/* <Cart/>
+        <Produk/> */}
+        <Communication/>
       </ScrollView>
     </View>
   );
